@@ -1,0 +1,94 @@
+body
+{   
+    background-color: rgb(4, 63, 9);
+    padding: 0.3%;
+}
+
+.Header {
+    width: 70%;
+    height: 11vh;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    z-index: 10;
+}
+
+.header-bg {
+    position: absolute;
+    inset: 0;
+    border-radius: 40px;
+
+    background: rgba(6, 101, 14, 0.569);
+    backdrop-filter: blur(10px);
+
+    z-index: -1;
+}
+
+.Header button {
+    position: relative;
+    z-index: 1;
+}
+
+
+.Home
+{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.izobrajenie
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.izobrajenie img
+{
+    flex-shrink: 15;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mishka
+{
+    margin-top: -17%;
+    width: 8vw;
+    height: 10vh;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mishka img
+{
+    width: 100%;
+}
+
+button
+{
+    margin-left: 10%;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.oblasti
+{
+    width: 100%;
+    height: 500vh;
+    margin: auto;
+    margin-top: -0.75%;
+    background-color: black;
+}
